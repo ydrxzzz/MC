@@ -1,0 +1,34 @@
+#Messages version
+#DO NOT CHANGE IT MANUALLY!
+CfgVersion: 1.0
+
+#ON / OFF sending messages after using tools
+MESSAGE_OPTION: true
+
+#INFO
+#Color code - &
+#Do not change variables inside % %
+MESSAGES:
+  #Technical messages
+  NO_PERMISSION: '&cNo permission! &r&6You do not have the rights to perform this command.'
+  CORRECT_USAGE: '&eCorrect usage: &a&l%SYNTAX%&r.'
+  WRONG_VALUE: '&cError: &r&6Invalid &lvalue&r provided!'
+  WRONG_PLAYER: '&6Player &d&l%PLAYER%&r not found!'
+
+  # Basic tools and commands
+  ADD_EXP: '&eAdded &a&l%EXP%&r &epoints to your experience!'
+  CLEAR_MY_INV: '&6Your inventory has been &4cleared!&r'
+  FLY: '&6Flight mode set to: &a&l%SET%&r.'
+  FLY_SPEED: '&6Flight speed is now: &a&l%SPEED%&r.'
+  GAMEMODE: '&6Your game mode has been changed to: &a&l%MODE%&r.'
+  GOD: '&6God mode set to: &a&l%SET%&r.'
+  HEAL_ME: '&6You have been &lhealed!&r'
+  REPAIR_ITEMS: '&6All items &lrepaired!&r'
+  RESET_EXP: '&6Your experience has been &4reset!&r'
+  WALK_SPEED: '&6Walk speed set to: &a&l%SPEED%&r.'
+
+  #Player manager tools and commands
+  KICK_ALL: '&6Kicked all players!'
+
+  #Server tools
+  CHAT_CLEARED: '&6Chat was cleared.'

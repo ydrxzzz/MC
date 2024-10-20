@@ -1,0 +1,17 @@
+#Messages version
+#DO NOT CHANGE IT MANUALLY!
+CfgVersion: 1.0
+
+#Flags are working on whole server without WorldEdit and WorldGuard
+FLAGS:
+  PLACE_BLOCK: true
+  BREAK_BLOCK: true
+  CHAT: true
+  PVP: true
+  MOB_SPAWN: true
+  DROP_ITEM: true
+  PICKUP_ITEM: true
+
+#TRUE - set '&' as color code for chat messages
+#Permission - 'admintools.colorcode'
+colorCode: true
